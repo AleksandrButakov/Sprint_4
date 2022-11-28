@@ -14,12 +14,12 @@ public class BaseTest {
 
     @Before
     public void before() {
-        WebDriverManager.chromedriver().setup();
+        // WebDriverManager.chromedriver().setup();
 
-        // System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
         // System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
         this.driver = new ChromeDriver();
-        // driver = new FirefoxDriver();
+        // this.driver = new FirefoxDriver();
         this.driver.manage().window().maximize();
         this.driver.get(url);
     }

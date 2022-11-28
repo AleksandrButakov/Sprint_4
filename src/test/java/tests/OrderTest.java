@@ -27,7 +27,6 @@ public class OrderTest extends BaseTest {
         User user = new User("Коля", "Иванов", "Самара", "Сокольники", "89995556677");
         OrderData orderData = new OrderData("22.02.2023", "трое суток", "Привет!");
         orderTestData(orderPage, user, orderData);
-
     }
 
     @Test
