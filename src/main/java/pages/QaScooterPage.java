@@ -82,7 +82,6 @@ public class QaScooterPage {
 //        return accordionPanel.getText();
 //    }
 
-
     public String getTextPanel0() {
         accordionHeading = driver.findElement(questionsAboutImportantHeading0);
         accordionHeading.click();
